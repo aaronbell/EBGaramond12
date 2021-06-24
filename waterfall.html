@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Waterfall</title>
+    
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+	.box-title{
+	  width: 100%;
+	  float: left;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	}
+	#font-toggle{
+	  display: block;
+	  font-weight: 700;
+	  cursor: pointer;
+	  -webkit-user-select: none; /* Safari */        
+	  -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+	  user-select: none; /* Standard */
+	  text-align: center;
+	  color: white;
+	  background-color: black;
+	  width: 50px;
+	  display: block;
+	  padding: 10px;
+	}
+
+	  
+
+	  
+
+	  
+	    @font-face { src: url(fonts/EBGaramond-SemiBold.ttf); font-family: EB-Garamond-SemiBold; font-weight: 600; font-stretch: 100%; font-style: normal; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-MediumItalic.ttf); font-family: EB-Garamond-Medium-Italic; font-weight: 500; font-stretch: 100%; font-style: italic; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-Medium.ttf); font-family: EB-Garamond-Medium; font-weight: 500; font-stretch: 100%; font-style: normal; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-Italic.ttf); font-family: EB-Garamond-Italic; font-weight: 400; font-stretch: 100%; font-style: italic; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-ExtraBold.ttf); font-family: EB-Garamond-ExtraBold; font-weight: 800; font-stretch: 100%; font-style: normal; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-Bold.ttf); font-family: EB-Garamond-Bold; font-weight: 700; font-stretch: 100%; font-style: normal; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-BoldItalic.ttf); font-family: EB-Garamond-Bold-Italic; font-weight: 700; font-stretch: 100%; font-style: italic; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-Regular.ttf); font-family: EB-Garamond-Regular; font-weight: 400; font-stretch: 100%; font-style: normal; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-ExtraBoldItalic.ttf); font-family: EB-Garamond-ExtraBold-Italic; font-weight: 800; font-stretch: 100%; font-style: italic; }
+	  
+	    @font-face { src: url(fonts/EBGaramond-SemiBoldItalic.ttf); font-family: EB-Garamond-SemiBold-Italic; font-weight: 600; font-stretch: 100%; font-style: italic; }
+	  
+
+	  
+
+	  
+
+	  
+	    .EB-Garamond-SemiBold { font-family: EB-Garamond-SemiBold; font-weight: 600; font-style: normal; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Medium-Italic { font-family: EB-Garamond-Medium-Italic; font-weight: 500; font-style: italic; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Medium { font-family: EB-Garamond-Medium; font-weight: 500; font-style: normal; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Italic { font-family: EB-Garamond-Italic; font-weight: 400; font-style: italic; font-stretch: 100%; }
+	  
+	    .EB-Garamond-ExtraBold { font-family: EB-Garamond-ExtraBold; font-weight: 800; font-style: normal; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Bold { font-family: EB-Garamond-Bold; font-weight: 700; font-style: normal; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Bold-Italic { font-family: EB-Garamond-Bold-Italic; font-weight: 700; font-style: italic; font-stretch: 100%; }
+	  
+	    .EB-Garamond-Regular { font-family: EB-Garamond-Regular; font-weight: 400; font-style: normal; font-stretch: 100%; }
+	  
+	    .EB-Garamond-ExtraBold-Italic { font-family: EB-Garamond-ExtraBold-Italic; font-weight: 800; font-style: italic; font-stretch: 100%; }
+	  
+	    .EB-Garamond-SemiBold-Italic { font-family: EB-Garamond-SemiBold-Italic; font-weight: 600; font-style: italic; font-stretch: 100%; }
+	  
+	
+    </style>
+</head>
+<body>
+    
+    <div id="content">
+	<h2>
+<b>Waterfall</b>
+</h2>
+	
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 7pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 10pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 11pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 12pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 14pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 16pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 18pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 21pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 27pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold 32pt</div>
+	<span class="EB-Garamond-SemiBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 7pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 10pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 11pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 12pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 14pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 16pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 18pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 21pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 27pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium-Italic 32pt</div>
+	<span class="EB-Garamond-Medium-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 7pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 10pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 11pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 12pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 14pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 16pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 18pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 21pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 27pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Medium 32pt</div>
+	<span class="EB-Garamond-Medium" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 7pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 10pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 11pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 12pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 14pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 16pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 18pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 21pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 27pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Italic 32pt</div>
+	<span class="EB-Garamond-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 7pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 10pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 11pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 12pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 14pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 16pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 18pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 21pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 27pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold 32pt</div>
+	<span class="EB-Garamond-ExtraBold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 7pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 10pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 11pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 12pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 14pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 16pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 18pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 21pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 27pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold 32pt</div>
+	<span class="EB-Garamond-Bold" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 7pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 10pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 11pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 12pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 14pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 16pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 18pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 21pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 27pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Bold-Italic 32pt</div>
+	<span class="EB-Garamond-Bold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 7pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 10pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 11pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 12pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 14pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 16pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 18pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 21pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 27pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-Regular 32pt</div>
+	<span class="EB-Garamond-Regular" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 7pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 10pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 11pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 12pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 14pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 16pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 18pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 21pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 27pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-ExtraBold-Italic 32pt</div>
+	<span class="EB-Garamond-ExtraBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 7pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 7pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 10pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 10pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 11pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 11pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 12pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 12pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 14pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 14pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 16pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 16pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 18pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 18pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 21pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 21pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 27pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 27pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">EB-Garamond-SemiBold-Italic 32pt</div>
+	<span class="EB-Garamond-SemiBold-Italic" style="font-size: 32pt">
+            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
+            quick wafting zephyrs vex bold jim.<br>
+            $14.95<br>
+          </span>
+       </div>
+    
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "after"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	  items = document.getElementsByClassName("box")
+	  
+	  if (POSITION === "before") {
+	  POSITION = "after"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("before", "after")
+            item.lastElementChild.className = item.lastElementChild.className.replace("before", "after")
+	    fontToggle.textContent = "After"
+	  }
+	  } else {
+	  POSITION = "before"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("after", "before")
+            item.lastElementChild.className = item.lastElementChild.className.replace("after", "before")
+	    fontToggle.textContent = "Before"
+	  }
+	}
+	}
+	fontToggle.addEventListener("click", switchFonts);
+	</script>
+</html>
